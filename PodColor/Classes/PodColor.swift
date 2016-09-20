@@ -1,7 +1,7 @@
 import Foundation
 import UIKit
 
-@objc class PodColor: NSObject {
+@objc public  class PodColor: NSObject {
     public func RGBUIColor(red red: Int, green: Int, blue: Int) -> UIColor {
         return UIColor.blueColor()
     }
