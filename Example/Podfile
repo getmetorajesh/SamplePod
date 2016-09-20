@@ -1,0 +1,6 @@
+use_frameworks!
+target 'PodColor_Tests' do
+  pod 'PodColor', :path => '../'
+  
+  
+end
