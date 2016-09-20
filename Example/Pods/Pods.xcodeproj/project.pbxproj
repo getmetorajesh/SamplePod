@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1712058A2F510F725F7E93B0D88590D0 /* SamplePod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419EB74F9112BBEF0E1E9E33F0D55B27 /* SamplePod.swift */; };
+		1892E6A91D90C482005D08A0 /* SamplePod-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 1892E6A81D90C482005D08A0 /* SamplePod-Bridging-Header.h */; };
 		3AA1CFEBE94D90FF2780CC4F4D8AFF05 /* SamplePod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A8955EF4F97710376B3123880C83C93 /* SamplePod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F20BF523E7ED808C93949311BB5CA2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		689CE97ABF0580D5E2C20D612A9E4FC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1892E6A81D90C482005D08A0 /* SamplePod-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SamplePod-Bridging-Header.h"; sourceTree = "<group>"; };
 		2D20C96814C13F91B5B8DB745C8F7C8D /* SamplePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SamplePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3938E959AACC69022CC8C487AD484D97 /* Pods-SamplePod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SamplePod_Tests.modulemap"; sourceTree = "<group>"; };
 		419EB74F9112BBEF0E1E9E33F0D55B27 /* SamplePod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SamplePod.swift; sourceTree = "<group>"; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				419EB74F9112BBEF0E1E9E33F0D55B27 /* SamplePod.swift */,
+				1892E6A81D90C482005D08A0 /* SamplePod-Bridging-Header.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA1CFEBE94D90FF2780CC4F4D8AFF05 /* SamplePod-umbrella.h in Headers */,
+				1892E6A91D90C482005D08A0 /* SamplePod-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
