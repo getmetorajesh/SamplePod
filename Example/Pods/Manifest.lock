@@ -1,0 +1,16 @@
+PODS:
+  - PodColor (0.1.0)
+
+DEPENDENCIES:
+  - PodColor (from `../`)
+
+EXTERNAL SOURCES:
+  PodColor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PodColor: 593ad8ddd48d3fc366610e3b734817199bbc3480
+
+PODFILE CHECKSUM: 1c07f14daea7ba89ff17d6de8f5291194cbf3110
+
+COCOAPODS: 1.0.1

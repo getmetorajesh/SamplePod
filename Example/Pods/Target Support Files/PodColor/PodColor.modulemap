@@ -1,0 +1,6 @@
+framework module PodColor {
+  umbrella header "PodColor-umbrella.h"
+
+  export *
+  module * { export * }
+}
